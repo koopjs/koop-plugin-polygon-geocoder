@@ -1,0 +1,30 @@
+{
+  "name": "koop-reverse-geocoder-plugin",
+  "version": "0.0.0",
+  "description": "A koop plugin that enables reverse geocoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koopjs/koop-reverse-geocoder.git"
+  },
+  "keywords": [
+    "geocoding"
+  ],
+  "author": "Daniel Fenton <dfenton@esri.com>",
+  "license": "APACHE",
+  "bugs": {
+    "url": "https://github.com/koopjs/koop-reverse-geocoder/issues"
+  },
+  "homepage": "https://github.com/koopjs/koop-reverse-geocoder",
+  "devDependencies": {
+    "standard": "^4.3.1",
+    "turf-centroid": "^1.1.2"
+  },
+  "dependencies": {
+    "turf-area": "^1.1.1",
+    "turf-extent": "^1.0.4"
+  }
+}
